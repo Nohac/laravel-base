@@ -1,7 +1,13 @@
 function zenv_up {
     alias artisan="$ZENV_ROOT/artisan"
+    alias as="artisan"
+    alias tinker="as tinker"
+    alias phpunit="$ZENV_ROOT/vendor/bin/phpunit"
 }
 
 function zenv_down {
     unalias artisan
+    unalias as
+    unalias tinker
+    unalias phpunit
 }
