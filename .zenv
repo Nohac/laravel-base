@@ -1,0 +1,7 @@
+function zenv_up {
+    alias artisan="$ZENV_ROOT/artisan"
+}
+
+function zenv_down {
+    unalias artisan
+}
