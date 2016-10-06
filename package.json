@@ -3,7 +3,7 @@
   "scripts": {
     "prod": "gulp --production",
     "dev": "gulp watch",
-    "serve": "./artisan serve --host localhost --port 8080"
+    "serve": "./artisan serve --host localhost --port 8000"
   },
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
